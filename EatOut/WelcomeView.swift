@@ -15,6 +15,9 @@ struct WelcomeView: View {
             BackgroundImageView()
                 VStack {
                     MenuButtonView()
+                    Spacer()
+                    WelcomeTextView()
+                    Spacer()
                 }
                 .frame(width: UIScreen.main.bounds.width)
                 .edgesIgnoringSafeArea(.bottom)
