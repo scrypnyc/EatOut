@@ -21,7 +21,8 @@ struct WelcomeView: View {
                     NavigationLink(destination: Text("Coming Soon.")) {
                         SignInOrCreateButtonView()
                     }
-                    Spacer()
+                    
+                    WelcomeBottomView()
                 }
                 .frame(width: UIScreen.main.bounds.width)
                 .edgesIgnoringSafeArea(.bottom)

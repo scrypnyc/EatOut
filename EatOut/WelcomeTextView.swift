@@ -14,7 +14,7 @@ struct WelcomeTextView: View {
              Text("NEW BURGERS")
                  .font(.title)
                  .fontWeight(.heavy)
-                 .foregroundColor(Color.gray)
+                 .foregroundColor(Color.orange)
                  .multilineTextAlignment(.center)
              
              Text("They're better than your Dad's.\n He just won't admit it.")

@@ -17,7 +17,7 @@ struct BackgroundImageView: View {
                 .edgesIgnoringSafeArea(.all)
             
             Rectangle()
-                .opacity(0.3)
+                .opacity(0.5)
                 .edgesIgnoringSafeArea(.all)
 //            LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing)
 //                .opacity(0.1)
