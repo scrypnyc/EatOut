@@ -11,7 +11,7 @@ import SwiftUI
 struct BackgroundImageView: View {
     var body: some View {
         ZStack {
-              Image("burger2")
+              Image("burger3")
             .resizable()
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)

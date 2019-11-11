@@ -18,6 +18,10 @@ struct WelcomeView: View {
                     Spacer()
                     WelcomeTextView()
                     Spacer()
+                    NavigationLink(destination: Text("Coming Soon.")) {
+                        SignInOrCreateButtonView()
+                    }
+                    Spacer()
                 }
                 .frame(width: UIScreen.main.bounds.width)
                 .edgesIgnoringSafeArea(.bottom)
