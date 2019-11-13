@@ -26,7 +26,7 @@ struct SignInOrCreateButtonView: View {
         }
         .padding()
         .background(Color.gray)
-        .cornerRadius(14)
+        .cornerRadius(16)
         .padding(.horizontal, 8)
     }
 }

@@ -43,7 +43,7 @@ struct WelcomeBottomView: View {
         .edgesIgnoringSafeArea(.bottom)
         .frame(width: UIScreen.main.bounds.width, height: 160)
         .background(Color.white)
-        .cornerRadius(14)
+        .cornerRadius(16)
     }
 }
 
