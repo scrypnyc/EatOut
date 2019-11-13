@@ -20,7 +20,7 @@ struct WelcomeBottomButtonView: View {
                         print(button.label)
                     }) {
                         Image(systemName: button.image)
-                            .font(.title)
+                            .font(.largeTitle)
                             .foregroundColor(.black)
                         
                         Text(button.label)
@@ -30,13 +30,13 @@ struct WelcomeBottomButtonView: View {
                     .frame(width: geo.size.width / 2.3, height: 50)
                     .background(Color.white)
                     .cornerRadius(16)
-                    .shadow(color: Color(.black).opacity(0.4), radius: 4, x: 0, y: 0)
+                    .shadow(color: Color(.gray).opacity(0.4), radius: 4, x: 0, y: 0)
                     .padding(.horizontal)
                     
                 }
             }
         }
-//        .frame(height: 60)
+        .frame(height: 5)
         .padding()
     }
 }

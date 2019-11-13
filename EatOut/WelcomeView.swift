@@ -9,12 +9,25 @@
 import SwiftUI
 
 struct WelcomeView: View {
+    
+    @State private var isBottomViewOnScreen = false
+    @State private var isSignUpViewOnScreen = false
+    @State private var isMenuViewOnScreen = false
+    
     var body: some View {
         NavigationView {
             ZStack {
             BackgroundImageView()
+                
                 VStack {
                     MenuButtonView()
+                        .offset(y: isMenuViewOnScreen ? 0 : -400)
+                        .animation(.spring(dampingFraction: 0.8))
+                        .onAppear {
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                                self.isMenuViewOnScreen.toggle()
+                            }
+                    }
                     Spacer()
                     WelcomeTextView()
                     Spacer()
