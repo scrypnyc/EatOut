@@ -10,8 +10,8 @@ import SwiftUI
 
 struct WelcomeTextView: View {
     var body: some View {
-        VStack{
-             Text("NEW BURGERS")
+        VStack {
+             Text("THE BURGER")
                  .font(.title)
                  .fontWeight(.heavy)
                  .foregroundColor(Color.orange)
@@ -19,11 +19,12 @@ struct WelcomeTextView: View {
              
              Text("They're better than your Dad's.\n He just won't admit it.")
                  .font(.headline)
-             .foregroundColor(Color.gray)
+             .foregroundColor(Color.white)
              .multilineTextAlignment(.center)
-         }
+        }.padding()
     }
 }
+
 
 struct WelcomeTextView_Previews: PreviewProvider {
     static var previews: some View {

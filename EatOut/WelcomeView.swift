@@ -24,23 +24,39 @@ struct WelcomeView: View {
                         .offset(y: isMenuViewOnScreen ? 0 : -400)
                         .animation(.spring(dampingFraction: 0.8))
                         .onAppear {
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
                                 self.isMenuViewOnScreen.toggle()
                             }
                     }
-                    Spacer()
+//                    Spacer()
                     WelcomeTextView()
                     Spacer()
+                    
                     NavigationLink(destination: Text("Coming Soon.")) {
+                        
                         SignInOrCreateButtonView()
+                        }
+                        .offset(y: isSignUpViewOnScreen ? 0 : 400)
+                        .animation(.spring(dampingFraction: 0.8))
+                        .onAppear {
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+                                self.isSignUpViewOnScreen.toggle()
+                        }
                     }
                     
                     WelcomeBottomView()
+                        .offset(y: isBottomViewOnScreen ? 0 : 400)
+                        .animation(.spring(dampingFraction: 0.8))
+//                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+                        .onAppear {
+                                self.isBottomViewOnScreen.toggle()
+                        
+                    }
                 }
                 .frame(width: UIScreen.main.bounds.width)
                 .edgesIgnoringSafeArea(.bottom)
             }
-            .navigationBarTitle("", displayMode: .inline)
+            .navigationBarTitle("", displayMode: .automatic)
             .navigationBarHidden(true)
         }
     }

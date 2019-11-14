@@ -27,17 +27,17 @@ struct WelcomeBottomButtonView: View {
                             .foregroundColor(.black)
                             .fontWeight(.bold)
                     }
-                    .frame(width: geo.size.width / 2.3, height: 50)
+                    .frame(width: geo.size.width / 2.5, height: 50)
                     .background(Color.white)
-                    .cornerRadius(16)
+                    .cornerRadius(29)
                     .shadow(color: Color(.gray).opacity(0.4), radius: 4, x: 0, y: 0)
                     .padding(.horizontal)
                     
                 }
             }
         }
-        .frame(height: 5)
-        .padding()
+        .frame(height: 40)
+        .padding(.bottom)
     }
 }
 

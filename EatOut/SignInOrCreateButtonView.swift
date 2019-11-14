@@ -15,7 +15,7 @@ struct SignInOrCreateButtonView: View {
                 .font(.largeTitle)
                 .foregroundColor(Color.black)
             
-            VStack(alignment: .leading){
+            VStack(alignment: .leading) {
                 Text("Let's get to eat with us!")
                     .foregroundColor(.black)
                     .fontWeight(.bold)

@@ -15,7 +15,7 @@ struct WelcomeBottomView: View {
                 VStack {
                     Text("Choose a Burger")
                         .font(.title)
-                        .fontWeight(.bold)
+                        .fontWeight(.heavy)
                     
                     Text("Start by choosing a location")
                         .foregroundColor(.secondary)
@@ -43,7 +43,7 @@ struct WelcomeBottomView: View {
             WelcomeBottomButtonView()
         }
         .edgesIgnoringSafeArea(.bottom)
-        .frame(width: UIScreen.main.bounds.width, height: 160)
+        .frame(width: UIScreen.main.bounds.width, height: 155)
         .background(Color.white)
         .cornerRadius(16)
     }
