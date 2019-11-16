@@ -7,12 +7,16 @@
 //
 
 import SwiftUI
+import Foundation
+import UIKit
+
 
 struct WelcomeView: View {
     
     @State private var isBottomViewOnScreen = false
     @State private var isSignUpViewOnScreen = false
     @State private var isMenuViewOnScreen = false
+    
     
     var body: some View {
         NavigationView {
