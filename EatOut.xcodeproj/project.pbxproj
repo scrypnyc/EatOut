@@ -20,6 +20,7 @@
 		E5AB29F42379C79E0087E78A /* SignInOrCreateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AB29F32379C79E0087E78A /* SignInOrCreateButtonView.swift */; };
 		E5AB29F62379E91E0087E78A /* WelcomeBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AB29F52379E91E0087E78A /* WelcomeBottomView.swift */; };
 		E5AB29F82379F45A0087E78A /* WelcomeBottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AB29F72379F45A0087E78A /* WelcomeBottomButtonView.swift */; };
+		E5B49E462386E59C007FEB01 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B49E452386E59C007FEB01 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E5AB29F32379C79E0087E78A /* SignInOrCreateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOrCreateButtonView.swift; sourceTree = "<group>"; };
 		E5AB29F52379E91E0087E78A /* WelcomeBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomView.swift; sourceTree = "<group>"; };
 		E5AB29F72379F45A0087E78A /* WelcomeBottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomButtonView.swift; sourceTree = "<group>"; };
+		E5B49E452386E59C007FEB01 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E52402BE2386EFB8009CCE6A /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				E5B49E452386E59C007FEB01 /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
 		E5A5061F237838ED00CE530E = {
 			isa = PBXGroup;
 			children = (
@@ -72,14 +82,9 @@
 			children = (
 				E5A5062B237838ED00CE530E /* AppDelegate.swift */,
 				E5A5062D237838ED00CE530E /* SceneDelegate.swift */,
-				E5A5062F237838ED00CE530E /* WelcomeView.swift */,
-				E5A5063F237846FA00CE530E /* BackgroundImageView.swift */,
-				E54304BB23785E9F008E4AD0 /* MenuButtonView.swift */,
-				E54304BD237896B6008E4AD0 /* WelcomeTextView.swift */,
-				E5AB29F32379C79E0087E78A /* SignInOrCreateButtonView.swift */,
-				E5AB29F52379E91E0087E78A /* WelcomeBottomView.swift */,
-				E5AB29F72379F45A0087E78A /* WelcomeBottomButtonView.swift */,
-				E566EF93238052F8005D8954 /* HostingController.swift */,
+				E5B49E412386E520007FEB01 /* WelcomeView */,
+				E52402BE2386EFB8009CCE6A /* LoginView */,
+				E5B49E422386E548007FEB01 /* Support Files */,
 				E5A50631237838F200CE530E /* Assets.xcassets */,
 				E5A50636237838F200CE530E /* LaunchScreen.storyboard */,
 				E5A50639237838F200CE530E /* Info.plist */,
@@ -94,6 +99,28 @@
 				E5A50634237838F200CE530E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5B49E412386E520007FEB01 /* WelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				E5A5062F237838ED00CE530E /* WelcomeView.swift */,
+				E5A5063F237846FA00CE530E /* BackgroundImageView.swift */,
+				E54304BB23785E9F008E4AD0 /* MenuButtonView.swift */,
+				E54304BD237896B6008E4AD0 /* WelcomeTextView.swift */,
+				E5AB29F32379C79E0087E78A /* SignInOrCreateButtonView.swift */,
+				E5AB29F52379E91E0087E78A /* WelcomeBottomView.swift */,
+				E5AB29F72379F45A0087E78A /* WelcomeBottomButtonView.swift */,
+			);
+			path = WelcomeView;
+			sourceTree = "<group>";
+		};
+		E5B49E422386E548007FEB01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E566EF93238052F8005D8954 /* HostingController.swift */,
+			);
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +202,7 @@
 				E5A50640237846FA00CE530E /* BackgroundImageView.swift in Sources */,
 				E54304BC23785E9F008E4AD0 /* MenuButtonView.swift in Sources */,
 				E5AB29F62379E91E0087E78A /* WelcomeBottomView.swift in Sources */,
+				E5B49E462386E59C007FEB01 /* LoginView.swift in Sources */,
 				E5AB29F82379F45A0087E78A /* WelcomeBottomButtonView.swift in Sources */,
 				E5A50630237838ED00CE530E /* WelcomeView.swift in Sources */,
 			);

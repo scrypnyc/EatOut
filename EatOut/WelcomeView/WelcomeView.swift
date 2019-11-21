@@ -7,8 +7,7 @@
 //
 
 import SwiftUI
-import Foundation
-import UIKit
+
 
 
 struct WelcomeView: View {
@@ -35,8 +34,7 @@ struct WelcomeView: View {
 //                    Spacer()
                     WelcomeTextView()
                     Spacer()
-                    
-                    NavigationLink(destination: Text("Coming Soon.")) {
+                    NavigationLink(destination: LoginView()) {
                         
                         SignInOrCreateButtonView()
                         }
