@@ -43,7 +43,7 @@ struct WelcomeBottomView: View {
             WelcomeBottomButtonView()
         }
         .edgesIgnoringSafeArea(.bottom)
-        .frame(width: UIScreen.main.bounds.width, height: 155)
+        .frame(width: UIScreen.main.bounds.width, height: 170)
         .background(Color.white)
         .cornerRadius(16)
     }

@@ -11,13 +11,15 @@ import SwiftUI
 struct BackgroundImageView: View {
     var body: some View {
         ZStack {
-              Image("burger6")
-            .resizable()
+              Image("burger7")
+//                .resizable()
+                .resizable(capInsets: .init(top: 71, leading: 125, bottom: 100, trailing: 140))
                 .aspectRatio(contentMode: .fill)
-                .edgesIgnoringSafeArea(.all)
+                .edgesIgnoringSafeArea(.top)
+//                .offset(x: -1)
             
             Rectangle()
-                .opacity(0.6)
+                .opacity(0.5)
                 .edgesIgnoringSafeArea(.all)
 //            LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing)
 //                .opacity(0.1)

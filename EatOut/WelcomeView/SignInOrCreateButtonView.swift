@@ -18,7 +18,7 @@ struct SignInOrCreateButtonView: View {
             VStack(alignment: .leading) {
                 Text("Let's get to eat with us!")
                     .foregroundColor(.black)
-                    .fontWeight(.bold)
+                    .fontWeight(.heavy)
                 Text("Sign in or create an account.")
                     .foregroundColor(.secondary)
             }.padding(.horizontal)

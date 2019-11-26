@@ -12,13 +12,14 @@ struct WelcomeTextView: View {
     var body: some View {
         VStack {
              Text("THE BURGER")
-                 .font(.title)
+//                .font(.title)
+                .font(.system(size: 28))
                  .fontWeight(.heavy)
                  .foregroundColor(Color.orange)
                  .multilineTextAlignment(.center)
              
              Text("They're better than your Dad's.\n He just won't admit it.")
-                 .font(.headline)
+                 .font(.system(size: 16))
              .foregroundColor(Color.white)
              .multilineTextAlignment(.center)
         }.padding()
