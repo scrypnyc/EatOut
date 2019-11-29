@@ -41,10 +41,11 @@ struct LoginView: View {
                 LoginTextView()
     
             if steps == 0 {
-                LoginTextFieldView()
+                LoginTextFieldView(email: $email)
             } else {
                 EmptyView()
             }
+            Spacer()
         }
     }
         .navigationBarBackButtonHidden(true)

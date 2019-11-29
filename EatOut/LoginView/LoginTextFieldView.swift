@@ -13,12 +13,17 @@ struct LoginTextFieldView: View {
     @Binding var email: String 
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("Enter your email", text: $email)
+            .keyboardType(.emailAddress)
+            .padding()
+            .background(Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)))
+            .cornerRadius(16)
+            .padding()
     }
 }
 
-struct LoginTextFieldView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginTextFieldView()
-    }
-}
+//struct LoginTextFieldView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        LoginTextFieldView()
+//    }
+//}
