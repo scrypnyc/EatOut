@@ -38,18 +38,15 @@ struct LoginView: View {
     var body: some View {
         NavigationView {
             VStack {
-                HStack {
-                    VStack(alignment: .leading) {
-                        Text("Get to THE BURGER!")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                            .padding(.bottom)
-                        
-                        Text("Sign in or create an account")
-                    }
-                }
+                LoginTextView()
+    
+            if steps == 0 {
+                LoginTextFieldView()
+            } else {
+                EmptyView()
             }
         }
+    }
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(leading: backButton)
     }

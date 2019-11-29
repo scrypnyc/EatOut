@@ -21,6 +21,8 @@
 		E5AB29F62379E91E0087E78A /* WelcomeBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AB29F52379E91E0087E78A /* WelcomeBottomView.swift */; };
 		E5AB29F82379F45A0087E78A /* WelcomeBottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AB29F72379F45A0087E78A /* WelcomeBottomButtonView.swift */; };
 		E5B49E462386E59C007FEB01 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B49E452386E59C007FEB01 /* LoginView.swift */; };
+		E5FACD9A23912D12007F4505 /* LoginTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FACD9923912D12007F4505 /* LoginTextView.swift */; };
+		E5FACD9C23912EAA007F4505 /* LoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FACD9B23912EAA007F4505 /* LoginTextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		E5AB29F52379E91E0087E78A /* WelcomeBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomView.swift; sourceTree = "<group>"; };
 		E5AB29F72379F45A0087E78A /* WelcomeBottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomButtonView.swift; sourceTree = "<group>"; };
 		E5B49E452386E59C007FEB01 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E5FACD9923912D12007F4505 /* LoginTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextView.swift; sourceTree = "<group>"; };
+		E5FACD9B23912EAA007F4505 /* LoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E5B49E452386E59C007FEB01 /* LoginView.swift */,
+				E5FACD9923912D12007F4505 /* LoginTextView.swift */,
+				E5FACD9B23912EAA007F4505 /* LoginTextFieldView.swift */,
 			);
 			path = LoginView;
 			sourceTree = "<group>";
@@ -197,8 +203,10 @@
 				E566EF94238052F8005D8954 /* HostingController.swift in Sources */,
 				E5A5062C237838ED00CE530E /* AppDelegate.swift in Sources */,
 				E5A5062E237838ED00CE530E /* SceneDelegate.swift in Sources */,
+				E5FACD9A23912D12007F4505 /* LoginTextView.swift in Sources */,
 				E54304BE237896B6008E4AD0 /* WelcomeTextView.swift in Sources */,
 				E5AB29F42379C79E0087E78A /* SignInOrCreateButtonView.swift in Sources */,
+				E5FACD9C23912EAA007F4505 /* LoginTextFieldView.swift in Sources */,
 				E5A50640237846FA00CE530E /* BackgroundImageView.swift in Sources */,
 				E54304BC23785E9F008E4AD0 /* MenuButtonView.swift in Sources */,
 				E5AB29F62379E91E0087E78A /* WelcomeBottomView.swift in Sources */,
