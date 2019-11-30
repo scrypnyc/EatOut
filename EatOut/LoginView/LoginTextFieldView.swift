@@ -17,7 +17,7 @@ struct LoginTextFieldView: View {
             .keyboardType(.emailAddress)
             .padding()
             .background(Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)))
-            .cornerRadius(16)
+            .cornerRadius(18)
             .padding()
     }
 }
