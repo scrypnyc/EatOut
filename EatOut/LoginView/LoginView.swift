@@ -45,6 +45,8 @@ struct LoginView: View {
             } else {
                 EmptyView()
             }
+                
+            LoginButtonView()
             Spacer()
         }
     }

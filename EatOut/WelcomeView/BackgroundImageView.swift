@@ -12,11 +12,11 @@ struct BackgroundImageView: View {
     var body: some View {
         ZStack {
               Image("burger7")
-//                .resizable()
-                .resizable(capInsets: .init(top: 71, leading: 125, bottom: 100, trailing: 140))
+                .resizable()
+//                .resizable(capInsets: .init(top: 71, leading: 125, bottom: 100, trailing: 140))
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.top)
-//                .offset(x: -1)
+                .offset(x: -10)
             
             Rectangle()
                 .opacity(0.5)

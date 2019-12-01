@@ -15,13 +15,19 @@ struct LoginButtonView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                Text("Hello")
+                Text("or")
                 
                 ForEach(self.buttons, id: \.self) { button in
                     Button(action: {
                         print(button.label)
                     }) {
-                        Text("")
+                        Text(button.label)
+                            .fontWeight(.heavy)
+                            .foregroundColor(.black)
+                        
+                        Image(systemName: button.image)
+                            .font(.headline)
+                            .foregroundColor(.blue)
                     }
                 }
             }
