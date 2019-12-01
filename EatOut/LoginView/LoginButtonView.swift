@@ -26,12 +26,20 @@ struct LoginButtonView: View {
                             .foregroundColor(.black)
                         
                         Image(systemName: button.image)
-                            .font(.headline)
+                            .font(.largeTitle)
                             .foregroundColor(.blue)
                     }
+                    .frame(width: geometry.size.width / 1, height: 60)
+                    .background(Color.white)
+                    .cornerRadius(30)
+                    .shadow(color: Color(.gray).opacity(0.4), radius: 4, x: 0, y: 0)
+//                    .padding(.vertical, 4)
+                    
                 }
             }
         }
+        .frame(height: 128)
+        .padding()
     }
 }
 
