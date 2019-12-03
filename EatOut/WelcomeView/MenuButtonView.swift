@@ -17,7 +17,7 @@ struct MenuButtonView: View {
                 Image(systemName: "line.horizontal.3.decrease.circle.fill")
                     .font(.system(size: 38))
                     .foregroundColor(Color.white)
-                .shadow(radius: 10)
+                    .shadow(radius: 10)
             })
             Spacer()
         }.padding()

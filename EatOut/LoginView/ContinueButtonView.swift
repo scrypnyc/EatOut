@@ -9,9 +9,12 @@
 import SwiftUI
 
 struct ContinueButtonView: View {
+    
+    @Binding var steps: Int
+    
     var body: some View {
         Button(action: {
-            print("Continue")
+            self.steps += 1
         }) {
             Text("Continue")
                 .fontWeight(.heavy)
@@ -24,8 +27,8 @@ struct ContinueButtonView: View {
     }
 }
 
-struct ContinueButtonView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContinueButtonView()
-    }
-}
+//struct ContinueButtonView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContinueButtonView()
+//    }
+//}

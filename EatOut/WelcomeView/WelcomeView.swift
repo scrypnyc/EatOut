@@ -20,7 +20,7 @@ struct WelcomeView: View {
     var body: some View {
         NavigationView {
             ZStack {
-            BackgroundImageView()
+                BackgroundImageView()
                 
                 VStack {
                     MenuButtonView()
@@ -31,28 +31,28 @@ struct WelcomeView: View {
                                 self.isMenuViewOnScreen.toggle()
                             }
                     }
-//                    Spacer()
+                    //                    Spacer()
                     WelcomeTextView()
                     Spacer()
                     NavigationLink(destination: LoginView()) {
                         
                         SignInOrCreateButtonView()
-                        }
-                        .offset(y: isSignUpViewOnScreen ? 0 : 400)
-                        .animation(.spring(dampingFraction: 0.8))
-                        .onAppear {
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
-                                self.isSignUpViewOnScreen.toggle()
+                    }
+                    .offset(y: isSignUpViewOnScreen ? 0 : 400)
+                    .animation(.spring(dampingFraction: 0.8))
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+                            self.isSignUpViewOnScreen.toggle()
                         }
                     }
                     
                     WelcomeBottomView()
                         .offset(y: isBottomViewOnScreen ? 0 : 400)
                         .animation(.spring(dampingFraction: 0.8))
-//                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+                        //                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
                         .onAppear {
-                                self.isBottomViewOnScreen.toggle()
-                        
+                            self.isBottomViewOnScreen.toggle()
+                            
                     }
                 }
                 .frame(width: UIScreen.main.bounds.width)

@@ -21,12 +21,12 @@ struct LoginView: View {
 //                Circle()
 //                    .offset(x: 2)
 //                    .stroke(lineWidth: 1)
-//                    .foregroundColor(.orange)
+//                    .foregroundColor(.black)
                 
-                Image(systemName: "chevron.left.circle")
+                Image(systemName: "chevron.left")
 //                    .padding()
-//                    .font(.largeTitle)
-                    .font(.system(size: 38))
+//                    .font(.headline)
+                    .font(.system(size: 24))
                     .foregroundColor(.black)
             }
         }
@@ -39,22 +39,23 @@ struct LoginView: View {
         NavigationView {
             VStack {
                 LoginTextView()
-    
-            if steps == 0 {
-                LoginTextFieldView(email: $email)
-            } else {
-                EmptyView()
-            }
+                
+                if steps == 0 {
+                    LoginTextFieldView(email: $email)
+                } else {
+                    LoginTextFieldView(email: $email)
+                    LoginTextFieldView(email: $email)
+                }
                 
                 if email.isEmpty {
                     LoginButtonView()
                 } else {
-                    ContinueButtonView()
+                    ContinueButtonView(steps: $steps)
                 }
                 
-            Spacer()
+                Spacer()
+            }
         }
-    }
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(leading: backButton)
     }

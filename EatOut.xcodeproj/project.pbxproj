@@ -65,10 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				E5B49E452386E59C007FEB01 /* LoginView.swift */,
-				E5E6C3F123969E8E00419ED4 /* ContinueButtonView.swift */,
 				E5D511152392FD7900CBC6C9 /* LoginButtonView.swift */,
 				E5FACD9923912D12007F4505 /* LoginTextView.swift */,
 				E5FACD9B23912EAA007F4505 /* LoginTextFieldView.swift */,
+				E5E6C3F123969E8E00419ED4 /* ContinueButtonView.swift */,
 			);
 			path = LoginView;
 			sourceTree = "<group>";

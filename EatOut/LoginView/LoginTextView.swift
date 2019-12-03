@@ -21,7 +21,8 @@ struct LoginTextView: View {
                     .foregroundColor(.gray)
             }
             Spacer()
-        }.padding()
+        }
+        .padding()
     }
 }
 

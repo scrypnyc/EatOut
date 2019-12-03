@@ -10,7 +10,7 @@ import SwiftUI
 
 struct LoginButtonView: View {
     
-    let buttons = [ButtonsWithImage(image: "f.circle.fill", label: "Continue with Facebook"),                    ButtonsWithImage(image: "g.circle.fill", label: "Continue with Google")]
+    let buttons = [ButtonsWithImage(image: "f.circle.fill", label: "Continue with Facebook"), ButtonsWithImage(image: "g.circle.fill", label: "Continue with Google")]
     
     var body: some View {
         GeometryReader { geometry in
@@ -33,7 +33,7 @@ struct LoginButtonView: View {
                     .background(Color.white)
                     .cornerRadius(30)
                     .shadow(color: Color(.gray).opacity(0.4), radius: 4, x: 0, y: 0)
-//                    .padding(.vertical, 4)
+                    //                    .padding(.vertical, 4)
                     
                 }
             }

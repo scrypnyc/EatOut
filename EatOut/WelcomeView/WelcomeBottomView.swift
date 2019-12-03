@@ -25,17 +25,17 @@ struct WelcomeBottomView: View {
                 Button(action: {
                     print("Start")
                 }) {
-                ZStack {
-                    Capsule()
-                        .foregroundColor(.orange)
-                        .frame(width: 95, height: 46)
-                        .shadow(color: Color(.gray).opacity(0.6), radius: 4, x: 0, y: 0)
-                    
-                    Text("Start")
-                        .font(.system(size: 17))
-                        .foregroundColor(.white)
-                        .fontWeight(.semibold)
-
+                    ZStack {
+                        Capsule()
+                            .foregroundColor(.orange)
+                            .frame(width: 95, height: 46)
+                            .shadow(color: Color(.gray).opacity(0.6), radius: 4, x: 0, y: 0)
+                        
+                        Text("Start")
+                            .font(.system(size: 17))
+                            .foregroundColor(.white)
+                            .fontWeight(.semibold)
+                        
                     }
                 }
             }.padding()
