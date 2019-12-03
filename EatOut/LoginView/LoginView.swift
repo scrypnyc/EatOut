@@ -46,7 +46,12 @@ struct LoginView: View {
                 EmptyView()
             }
                 
-            LoginButtonView()
+                if email.isEmpty {
+                    LoginButtonView()
+                } else {
+                    ContinueButtonView()
+                }
+                
             Spacer()
         }
     }

@@ -22,6 +22,7 @@
 		E5AB29F82379F45A0087E78A /* WelcomeBottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AB29F72379F45A0087E78A /* WelcomeBottomButtonView.swift */; };
 		E5B49E462386E59C007FEB01 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B49E452386E59C007FEB01 /* LoginView.swift */; };
 		E5D511162392FD7900CBC6C9 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D511152392FD7900CBC6C9 /* LoginButtonView.swift */; };
+		E5E6C3F223969E8E00419ED4 /* ContinueButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6C3F123969E8E00419ED4 /* ContinueButtonView.swift */; };
 		E5FACD9A23912D12007F4505 /* LoginTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FACD9923912D12007F4505 /* LoginTextView.swift */; };
 		E5FACD9C23912EAA007F4505 /* LoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FACD9B23912EAA007F4505 /* LoginTextFieldView.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,7 @@
 		E5AB29F72379F45A0087E78A /* WelcomeBottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomButtonView.swift; sourceTree = "<group>"; };
 		E5B49E452386E59C007FEB01 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E5D511152392FD7900CBC6C9 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		E5E6C3F123969E8E00419ED4 /* ContinueButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueButtonView.swift; sourceTree = "<group>"; };
 		E5FACD9923912D12007F4505 /* LoginTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextView.swift; sourceTree = "<group>"; };
 		E5FACD9B23912EAA007F4505 /* LoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				E5B49E452386E59C007FEB01 /* LoginView.swift */,
+				E5E6C3F123969E8E00419ED4 /* ContinueButtonView.swift */,
 				E5D511152392FD7900CBC6C9 /* LoginButtonView.swift */,
 				E5FACD9923912D12007F4505 /* LoginTextView.swift */,
 				E5FACD9B23912EAA007F4505 /* LoginTextFieldView.swift */,
@@ -217,6 +220,7 @@
 				E5B49E462386E59C007FEB01 /* LoginView.swift in Sources */,
 				E5AB29F82379F45A0087E78A /* WelcomeBottomButtonView.swift in Sources */,
 				E5A50630237838ED00CE530E /* WelcomeView.swift in Sources */,
+				E5E6C3F223969E8E00419ED4 /* ContinueButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
